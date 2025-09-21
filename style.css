@@ -1,0 +1,101 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+#bar {
+    text-align: center;
+    background-color: #0048ff;
+    color: white;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    clear: both;
+    margin-bottom: 5px;
+}
+
+#main-nav {
+    background-color: #0048ff;
+    text-align: center;
+}
+
+#main-nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+#main-nav li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 10px;
+}
+
+#main-nav a {
+    color: white;
+    text-decoration: none;
+}
+
+#main-nav li:hover {
+    background-color: #7c7c7c;
+    color: white;
+}
+
+.main-container {
+    border: 2px solid black;
+    width: 100%;
+    margin-bottom: 5px;
+    overflow: auto;
+}
+
+.content-area {
+    width: 70%;
+    float: left;
+    background-color: aliceblue;
+    color: black;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: 5px;
+    padding: 10px;
+}
+
+#rules {
+    width: 25%;
+    float: right;
+    text-align: center;
+    background-color: #0048ff;
+    border: 2px solid black;
+    margin: 5px;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+#rules:hover {
+    background-color: #6f97fd;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+}
+
+#name {
+    padding: 5px;
+    width: 200px;
+}
+
+#name:focus {
+    width: 300px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 8px 15px;
+    background-color: #0048ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #705ad4;
+}
