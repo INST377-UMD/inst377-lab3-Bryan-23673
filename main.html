@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>Rock Paper Scissors Page</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header id="bar">
+            <h1>Welcome to Rock Paper Scissors</h1>
+        </header>
+
+        <nav id="main-nav">
+            <ul>
+                <li><a href="https://www.google.com">Google</a></li>
+                <li><a href="https://www.wikipedia.org">Wikipedia</a></li>
+                <li><a href="https://www.youtube.com">YouTube</a></li>
+            </ul>
+        </nav>
+
+        <div class="main-container">
+            <div class="content-area">
+                <h2>Play the Game</h2>
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" required>
+
+                    <label for="choice">Choose</label>
+                    <select name="choice" id="choice">
+                        <option value="rock">Rock</option>
+                        <option value="paper">Paper</option>
+                        <option value="scissors">Scissors</option>
+                    </select>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+            <aside id="rules">
+                <h3>Rules</h3>
+                <hr>
+                <p>Rock beats Scissors</p>
+                <p>Scissors beats Papers</p>
+                <p>Paper beats Rock</p>
+            </aside>
+        </div>
+
+        <footer id="bar">
+            <p>2025 Rock Paper Scissors Game</p>
+        </footer>
+    </body>
+</html>
